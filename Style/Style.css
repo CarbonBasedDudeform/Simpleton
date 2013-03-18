@@ -1,0 +1,122 @@
+/* 
+    Document   : Style
+    Created on : 17-Mar-2013, 13:04:45
+    Author     : SWEET SWEET BADDASSS
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 0 0 0;
+}
+
+.subscriptionBox
+{
+    width: 80%;
+    height: 30px;
+}
+
+.subscriptionSubmit
+{  
+    width: 19.78%;
+    height: 36px;
+    background-color: white;
+    border: 1px solid #CCC;
+}
+
+.subscriptionSubmit:hover
+{  
+    width: 19.78%;
+    height: 36px;
+    background-color: #000;
+    color: #FFF;
+}
+
+.subscriptionList 
+{
+    float: left;
+    width: 33.2%;
+    height: 90%;
+    border-right: 0.1em solid #CCC;
+    overflow: auto;
+}
+
+.mainArea
+{
+    float: left;
+    width: 66.7%;
+    height: 90%;
+    overflow: auto;
+}
+
+.logoutBtn{
+    width: 100%;
+    height: 55px;
+    background-color: #FFF;
+    color: #000;
+    border: 1px solid #CCC;
+    font-size: 40px;
+}
+
+.logoutBtn:hover{
+    width: 100%;
+    height: 55px;
+    background-color: #000;
+    color: #FFF;
+    border: 1px solid #CCC;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.feedItem
+{
+    padding-top: 5px;
+    width: 100%;
+    height: 5%;
+    background-color: #FFF;
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.feedItem:hover
+{
+    width: 100%;
+    height: 5%;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+}
+
+.subscriptionItem
+{
+    padding-top: 5px;
+    width: 100%;
+    height: 5%;
+    background-color: #FFF;
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.subscriptionItem:hover
+{
+    width: 100%;
+    height: 5%;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+}
